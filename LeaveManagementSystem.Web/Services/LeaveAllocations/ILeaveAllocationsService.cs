@@ -1,4 +1,5 @@
-﻿using LeaveManagementSystem.Web.Models.LeaveAllocations;
+﻿using LeaveManagementSystem.Web.Data;
+using LeaveManagementSystem.Web.Models.LeaveAllocations;
 
 namespace LeaveManagementSystem.Web.Services.LeaveAllocations;
 
@@ -13,4 +14,6 @@ public interface ILeaveAllocationsService
     Task<List<EmployeeListVM>> GetEmployees();
 
     Task EditAllocation(LeaveAllocationEditVM allocationEditVm);
+
+    Task<LeaveAllocation> GetCurrentAllocation(int leaveTypeId, string employeeId);
 }
