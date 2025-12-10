@@ -1,6 +1,4 @@
-﻿using LeaveManagementSystem.Web.Data;
-
-namespace LeaveManagementSystem.Web.Services.Users;
+﻿namespace LeaveManagementSystem.Web.Services.Users;
 
 public interface IUserService
 {

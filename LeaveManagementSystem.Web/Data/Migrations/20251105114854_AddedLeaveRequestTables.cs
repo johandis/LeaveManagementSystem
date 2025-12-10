@@ -27,7 +27,7 @@ namespace LeaveManagementSystem.Web.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "LeaveRequests",
+                name: "LeaveRequest",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)

@@ -4,6 +4,7 @@ using LeaveManagementSystem.Web.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeaveManagementSystem.Web.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251210102655_AddedExtraLeaveRequests2")]
+    partial class AddedExtraLeaveRequests2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -102,7 +105,7 @@ namespace LeaveManagementSystem.Web.Data.Migrations
                         {
                             Id = "ba873cf8-6060-41dc-9495-05fb9966e273",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "680865ff-d318-4df2-b9ce-7315e57abf78",
+                            ConcurrencyStamp = "6d2fd2c9-2e0f-4aa2-8c71-abd40fdcac62",
                             DateOfBirth = new DateOnly(1950, 12, 1),
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
@@ -111,9 +114,9 @@ namespace LeaveManagementSystem.Web.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJm6nrOKxFI2T3JNTYbJyvllHoIyMnJS/bVDfNYAN2Gtz8f4TvYcTVvdcIQDRUkkvQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEtjSSSky/jUBqk5qWscmpl8QMCs2KpCmZgs2/4P0J7xw6afhEm+kkaT6daAgFYPlA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "db512aef-e675-437b-ad01-d93504b00c63",
+                            SecurityStamp = "330e119e-121b-4da6-80ce-f975186a0600",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         });

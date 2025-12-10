@@ -49,7 +49,7 @@ namespace LeaveManagementSystem.Web.Controllers
         public async Task<IActionResult> Create(LeaveTypeCreateVM leaveTypeCreate)
         {
             // Adding custom validation and model state error
-            if (await leaveTypesService.CheckIfLeaveTypeNameExist(leaveTypeCreate.Name))
+            if (await leaveTypesService.CheckIfLeaveTypeNameExists(leaveTypeCreate.Name))
             {
                 ModelState.AddModelError(nameof(leaveTypeCreate.Name), NameExistsValidationMessage);
             }
@@ -91,7 +91,7 @@ namespace LeaveManagementSystem.Web.Controllers
             }
 
             // Adding custom validation and model state error
-            if (await leaveTypesService.CheckIfLeaveTypeNameExistForEdit(leaveTypeEdit))
+            if (await leaveTypesService.CheckIfLeaveTypeNameExistsForEdit(leaveTypeEdit))
             {
                 ModelState.AddModelError(nameof(leaveTypeEdit.Name), NameExistsValidationMessage);
             }

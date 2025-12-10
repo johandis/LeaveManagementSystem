@@ -60,13 +60,13 @@ namespace LeaveManagementSystem.Web.Services.LeaveTypes
             return context.LeaveTypes.Any(e => e.Id == id);
         }
 
-        public async Task<bool> CheckIfLeaveTypeNameExist(string name)
+        public async Task<bool> CheckIfLeaveTypeNameExists(string name)
         {
             var lowerCaseName = name.ToLower();
             return await context.LeaveTypes.AnyAsync(q => q.Name.ToLower().Equals(lowerCaseName));
         }
 
-        public async Task<bool> CheckIfLeaveTypeNameExistForEdit(LeaveTypeEditVM leaveTypeEdit)
+        public async Task<bool> CheckIfLeaveTypeNameExistsForEdit(LeaveTypeEditVM leaveTypeEdit)
         {
             var lowerCaseName = leaveTypeEdit.Name.ToLower();
             return await context.LeaveTypes.AnyAsync(q => q.Name.ToLower().Equals(lowerCaseName) &&

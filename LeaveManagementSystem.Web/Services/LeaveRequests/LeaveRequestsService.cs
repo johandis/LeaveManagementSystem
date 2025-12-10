@@ -11,7 +11,7 @@ namespace LeaveManagementSystem.Web.Services.LeaveRequests
     public class LeaveRequestsService(IMapper mapper,
         IUserService userService,
         ApplicationDbContext context,
-        ILeaveAllocationsService leaveAllocationsService, ILogger<LeaveRequestsService> logger) : ILeaveRequestsService
+        ILeaveAllocationsService leaveAllocationsService) : ILeaveRequestsService
     {
         public async Task CancelLeaveRequest(int leaveRequestId)
         {
@@ -27,8 +27,7 @@ namespace LeaveManagementSystem.Web.Services.LeaveRequests
         {
             // map data to leave request data model
             var leaveRequest = mapper.Map<LeaveRequest>(model);
-            logger.LogInformation("Creating Leave Request", leaveRequest);
-
+            
             // get logged in employee id
             var user = await userService.GetLoggedInUser();
             leaveRequest.EmployeeId = user.Id;
