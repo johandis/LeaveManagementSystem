@@ -3,7 +3,6 @@
 #nullable disable
 
 using System.Security.Claims;
-using LeaveManagementSystem.Web.Data;
 
 namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
 {
@@ -72,7 +71,7 @@ namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account
             [EmailAddress]
             public string Email { get; set; }
         }
-        
+
         public IActionResult OnGet() => RedirectToPage("./Login");
 
         public IActionResult OnPost(string provider, string returnUrl = null)

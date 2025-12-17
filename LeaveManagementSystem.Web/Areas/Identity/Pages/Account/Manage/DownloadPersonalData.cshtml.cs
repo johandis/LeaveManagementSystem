@@ -3,7 +3,6 @@
 #nullable disable
 
 using System.Text.Json;
-using LeaveManagementSystem.Web.Data;
 
 namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account.Manage
 {

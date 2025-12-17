@@ -2,9 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using LeaveManagementSystem.Web.Common;
-using LeaveManagementSystem.Web.Data;
-using LeaveManagementSystem.Web.Services.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveAllocations;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Web.Areas.Identity.Pages.Account;
@@ -152,7 +150,7 @@ public class RegisterModel : PageModel
                 {
                     await _userManager.AddToRoleAsync(user, Roles.Employee);
                 }
-               
+
                 var userId = await _userManager.GetUserIdAsync(user);
                 await _leaveAllocationsService.AllocateLeave(userId);
 

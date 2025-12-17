@@ -1,6 +1,4 @@
-﻿using LeaveManagementSystem.Web.Common;
-using LeaveManagementSystem.Web.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Web.Controllers
 {

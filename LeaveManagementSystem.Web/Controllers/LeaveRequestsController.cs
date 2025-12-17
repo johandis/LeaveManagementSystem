@@ -1,12 +1,12 @@
-﻿using LeaveManagementSystem.Web.Models.LeaveRequests;
-using LeaveManagementSystem.Web.Services.LeaveRequests;
-using LeaveManagementSystem.Web.Services.LeaveTypes;
+﻿using LeaveManagementSystem.Application.Models.LeaveRequests;
+using LeaveManagementSystem.Application.Services.LeaveRequests;
+using LeaveManagementSystem.Application.Services.LeaveTypes;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LeaveManagementSystem.Web.Controllers
 {
     [Authorize]
-    public class LeaveRequestsController (ILeaveTypesService leaveTypesService, ILeaveRequestsService leaveRequestsService) : Controller
+    public class LeaveRequestsController(ILeaveTypesService leaveTypesService, ILeaveRequestsService leaveRequestsService) : Controller
     {
         // Employee View requests
         public async Task<IActionResult> Index()
