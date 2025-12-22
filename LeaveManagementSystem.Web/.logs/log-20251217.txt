@@ -27,3 +27,24 @@
 2025-12-17 14:42:24.993 +02:00 [INF] Creating Leave Type: Testing - 10
 2025-12-17 14:42:25.205 +02:00 [INF] Loading Leave Types
 2025-12-17 14:42:59.682 +02:00 [INF] Loading Leave Types
+2025-12-17 15:12:00.760 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-17 15:12:00.797 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-17 15:12:00.830 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 15:12:00.832 +02:00 [INF] Hosting environment: Development
+2025-12-17 15:12:00.834 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-17 15:12:05.632 +02:00 [INF] User logged out.
+2025-12-17 15:13:11.248 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-17 15:13:11.269 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-17 15:13:11.291 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 15:13:11.292 +02:00 [INF] Hosting environment: Development
+2025-12-17 15:13:11.294 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-17 15:15:15.958 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-17 15:15:15.987 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-17 15:15:16.020 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 15:15:16.022 +02:00 [INF] Hosting environment: Development
+2025-12-17 15:15:16.023 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-17 15:16:19.823 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-17 15:16:19.858 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-17 15:16:19.895 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-17 15:16:19.896 +02:00 [INF] Hosting environment: Development
+2025-12-17 15:16:19.897 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web

@@ -1,0 +1,81 @@
+2025-12-22 09:32:42.121 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 09:32:42.251 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 09:32:42.572 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 09:32:43.008 +02:00 [INF] Hosting environment: Development
+2025-12-22 09:32:43.118 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 09:46:07.133 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 09:46:07.210 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 09:46:07.272 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 09:46:07.279 +02:00 [INF] Hosting environment: Development
+2025-12-22 09:46:07.282 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 10:48:12.947 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 10:48:12.980 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 10:48:13.012 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 10:48:13.014 +02:00 [INF] Hosting environment: Development
+2025-12-22 10:48:13.015 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 10:51:07.749 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 10:51:07.782 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 10:51:07.817 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 10:51:07.818 +02:00 [INF] Hosting environment: Development
+2025-12-22 10:51:07.819 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 10:59:48.203 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 10:59:48.234 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 10:59:48.266 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 10:59:48.267 +02:00 [INF] Hosting environment: Development
+2025-12-22 10:59:48.268 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 11:13:01.593 +02:00 [INF] User logged in.
+2025-12-22 11:13:05.293 +02:00 [INF] Loading Leave Types
+2025-12-22 11:15:10.354 +02:00 [INF] User logged out.
+2025-12-22 11:20:46.656 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 11:20:46.688 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 11:20:46.719 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 11:20:46.721 +02:00 [INF] Hosting environment: Development
+2025-12-22 11:20:46.722 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 11:48:18.614 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 11:48:18.662 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 11:48:18.702 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 11:48:18.703 +02:00 [INF] Hosting environment: Development
+2025-12-22 11:48:18.705 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 12:42:53.263 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 12:42:53.309 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 12:42:53.361 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 12:42:53.363 +02:00 [INF] Hosting environment: Development
+2025-12-22 12:42:53.365 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 12:44:00.656 +02:00 [INF] User created a new account with password.
+2025-12-22 12:44:00.974 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web\wwwroot\template\email_layout.html'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Web.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web\Areas\Identity\Pages\Account\Register.cshtml.cs:line 170
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-22 12:44:43.653 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 12:44:43.691 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 12:44:43.728 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 12:44:43.730 +02:00 [INF] Hosting environment: Development
+2025-12-22 12:44:43.731 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 12:45:08.177 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-22 12:45:08.215 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-22 12:45:08.261 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 12:45:08.264 +02:00 [INF] Hosting environment: Development
+2025-12-22 12:45:08.265 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-22 12:50:14.432 +02:00 [INF] User logged in.

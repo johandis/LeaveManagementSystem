@@ -1,0 +1,36 @@
+2025-12-19 13:22:25.656 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-19 13:22:25.696 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-19 13:22:25.743 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-19 13:22:25.745 +02:00 [INF] Hosting environment: Development
+2025-12-19 13:22:25.747 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-19 13:28:09.919 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-19 13:28:09.954 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-19 13:28:09.992 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-19 13:28:09.995 +02:00 [INF] Hosting environment: Development
+2025-12-19 13:28:09.997 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-19 13:29:12.426 +02:00 [INF] User logged in.
+2025-12-19 13:32:26.648 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-19 13:32:26.683 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-19 13:32:26.718 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-19 13:32:26.720 +02:00 [INF] Hosting environment: Development
+2025-12-19 13:32:26.721 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-19 13:36:45.180 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-19 13:36:45.211 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-19 13:36:45.242 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-19 13:36:45.243 +02:00 [INF] Hosting environment: Development
+2025-12-19 13:36:45.244 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-19 14:02:02.259 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-19 14:02:02.286 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-19 14:02:02.334 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-19 14:02:02.336 +02:00 [INF] Hosting environment: Development
+2025-12-19 14:02:02.338 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-19 14:09:30.314 +02:00 [INF] Now listening on: https://localhost:7150
+2025-12-19 14:09:30.343 +02:00 [INF] Now listening on: http://localhost:5192
+2025-12-19 14:09:30.378 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-19 14:09:30.380 +02:00 [INF] Hosting environment: Development
+2025-12-19 14:09:30.381 +02:00 [INF] Content root path: C:\TFS\git\LeaveManagementSystem\LeaveManagementSystem.Web
+2025-12-19 14:11:22.801 +02:00 [INF] User logged out.
+2025-12-19 14:12:09.801 +02:00 [INF] User logged in.
+2025-12-19 14:12:34.890 +02:00 [INF] User logged out.
+2025-12-19 14:13:47.787 +02:00 [INF] User logged in.
+2025-12-19 14:14:00.115 +02:00 [INF] User logged out.
